@@ -49,9 +49,7 @@ Kelas : TI.24.A2
    <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/a1d3c424-757b-4400-a997-fb8974f40c6a" />
    
    <img width="960" height="1008" alt="Image" src="https://github.com/user-attachments/assets/6bba0b4e-584a-4419-89c3-12e5252c3ded" />
-   
-   <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/9066c099-c07b-4e8b-8ebf-51f81c92ea64" />
-   
+  
    <img width="960" height="1008" alt="Image" src="https://github.com/user-attachments/assets/28063c67-eae3-459c-b21b-e08c0d8f7cd3" />
    
    <img width="960" height="1008" alt="Image" src="https://github.com/user-attachments/assets/0a901f8b-0f42-4409-aeb9-b66d88d61b51" />
