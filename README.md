@@ -26,13 +26,10 @@ Kelas : TI.24.A2
 
 6. Pada sebuah elemen HTML, terdapat ID dan Class, apabila masing - masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (<p id="paragraf-1" class="text-paragraf">)
 Jawab : ID selector lebih spesifik daripada class selector. Jika keduanya mengatur properti yang sama, style dari ID selector yang dipakai browser. Jika keduanya mengatur properti yang berbeda, keduanya akan digabung.Aturan ini bisa berubah jika salah satu menggunakan `!important`.
-contoh : .teksbesar {
-  color: blue;
-  font-size: 20px;
-}
+contoh :
+HTML:
+```html
+<p id="paragraf1" class="teksbesar">Ini contoh paragraf</p>
 
-#paragraf1 {
-  color: red;
-}
 
 
