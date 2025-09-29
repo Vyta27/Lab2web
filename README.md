@@ -10,8 +10,24 @@ Kelas : TI.24.A2
    <img width="960" height="1008" alt="Image" src="https://github.com/user-attachments/assets/e1bbd02a-6159-4306-8f4b-f178c605b4b0" />
 
 2. Apa perbedaan pendeklarasian CSS elemen h1 {..} dengan #intro h1 {...}? berikan penjelasannya!
-Jawab :
-3. Apabila ada deklarasi CSS secara internal, lalu dutambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manaah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
-Jawab :
-4. Pada sebuah elemen HTML, terdapat ID dan Class, apabila masing - masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (<P id="paragraf-1" class="text-paragraf">)
+   
+Jawab : - h1 {...} : type selector, memengaruhi semua elemen <h1> di dokumen. Spesifitasnya rendah : (0,0,0,1)
+        - #intro h1 {...} : descendant selector, hanya <h1> yang berada di dalam elemen id="intro" yang terpengaruh. Spesifikasinya lebih tinggi karena : (0,1,0,1)
+
+4. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+Jawab : inline CSS memiliki prioritas paling tinggi karena ditulis langsng pada elemen, sehingga nilainya akan mengalahkan nilai yang sama dari internal maupun eksternal.Setelah inline, internal CSS, berikutnya eksternal CSS karena memiliki prioritas paling rendah.
+Contoh :
+- styles.css (eksternal)
+  p { color: blue; }         
+  p.special { font-weight: 400; }
+- <head> internal
+<style>
+  p { color: green; }  
+  p.special { font-weight: 500; }
+</style>
+- inline pada elemen
+  <p id="t1" class="special" style="color: red;">Teks</p>
+
+
+6. Pada sebuah elemen HTML, terdapat ID dan Class, apabila masing - masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (<P id="paragraf-1" class="text-paragraf">)
 Jawab :
