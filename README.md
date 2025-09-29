@@ -21,8 +21,8 @@ Kelas : TI.24.A2
    
    Jawab : inline CSS memiliki prioritas paling tinggi karena ditulis langsng pada elemen, sehingga nilainya akan mengalahkan nilai yang sama dari internal maupun eksternal.Setelah inline, internal CSS, berikutnya            eksternal CSS karena memiliki prioritas paling rendah.
 
-Contoh :
-<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/c3b8aa69-401a-444a-9643-811db7050ffd" />
+   Contoh :
+   <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/c3b8aa69-401a-444a-9643-811db7050ffd" />
 
 6. Pada sebuah elemen HTML, terdapat ID dan Class, apabila masing - masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! (<P id="paragraf-1" class="text-paragraf">)
 Jawab :
