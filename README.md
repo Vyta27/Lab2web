@@ -4,7 +4,7 @@ Kelas : TI.24.A2
 
 # Lab2web
 # Pernyataan dan Tugas
-1. Lakukan eksperimen dengan mengubah dan menambah properti dna nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+1. Lakukan eksperimen dengan mengubah dan menambah properti dna nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini. 
    
    Jawab :
    <img width="960" height="1008" alt="Image" src="https://github.com/user-attachments/assets/e1bbd02a-6159-4306-8f4b-f178c605b4b0" />
