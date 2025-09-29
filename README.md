@@ -9,10 +9,10 @@ Kelas : TI.24.A2
    Jawab :
    <img width="960" height="1008" alt="Image" src="https://github.com/user-attachments/assets/e1bbd02a-6159-4306-8f4b-f178c605b4b0" />
 
-2. Apa perbedaan pendeklarasian CSS elemen h1 {..} dengan #intro h1 {...}? berikan penjelasannya!
+2. Apa perbedaan pendeklarasian CSS elemen h1 {..} dengan #  intro h1 {...}? berikan penjelasannya!
    
 Jawab : - h1 {...} : type selector, memengaruhi semua elemen <h1> di dokumen. Spesifitasnya rendah : (0,0,0,1)
-        - #intro h1 {...} : descendant selector, hanya <h1> yang berada di dalam elemen id="intro" yang terpengaruh. Spesifikasinya lebih tinggi karena : (0,1,0,1)
+        - #  intro h1 {...} : descendant selector, hanya <h1> yang berada di dalam elemen id="intro" yang terpengaruh. Spesifikasinya lebih tinggi karena : (0,1,0,1)
 
 4. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 Jawab : inline CSS memiliki prioritas paling tinggi karena ditulis langsng pada elemen, sehingga nilainya akan mengalahkan nilai yang sama dari internal maupun eksternal.Setelah inline, internal CSS, berikutnya eksternal CSS karena memiliki prioritas paling rendah.
