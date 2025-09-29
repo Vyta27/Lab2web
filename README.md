@@ -13,9 +13,9 @@ Kelas : TI.24.A2
    
 Jawab : 
 
-- h1 {...} : type selector, memengaruhi semua elemen <h1> di dokumen. Spesifitasnya rendah : (0,0,0,1)
+- h1 {...} : type selector, memengaruhi semua elemen <h1> di dokumen.
 
-- (pagar) intro h1 {...} : descendant selector, hanya <h1> yang berada di dalam elemen id="intro" yang terpengaruh. Spesifikasinya lebih tinggi karena : (0,1,0,1)
+- (pagar) intro h1 {...} : descendant selector, hanya <h1> yang berada di dalam elemen id="intro" yang terpengaruh.
 
 4. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
    
