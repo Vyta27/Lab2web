@@ -44,8 +44,7 @@ Kelas : TI.24.A2
    }
 
 
-
-   **LAPORAN PRAKTIKUM**
+ **LAPORAN PRAKTIKUM**
    
    <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/a1d3c424-757b-4400-a997-fb8974f40c6a" />
    
