@@ -24,17 +24,22 @@ Jawab : inline CSS memiliki prioritas paling tinggi karena ditulis langsng pada 
 Contoh :
 
 - eksternal
+  
   p { color: blue; }         
   p.special { font-weight: 400; }
   
 - internal
 
 <style>
+   
   p { color: green; }  
+   
   p.special { font-weight: 500; }
+   
 </style>
 
 - inline pada elemen
+  
   <p id="t1" class="special" style="color: red;">Teks</p>
 
 
