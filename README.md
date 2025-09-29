@@ -43,6 +43,8 @@ Kelas : TI.24.A2
      color: red;
    }
 
+#Laporan Praktikum
+
 
 
 
