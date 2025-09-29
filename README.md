@@ -19,7 +19,7 @@ Kelas : TI.24.A2
 
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
    
-Jawab : inline CSS memiliki prioritas paling tinggi karena ditulis langsng pada elemen, sehingga nilainya akan mengalahkan nilai yang sama dari internal maupun eksternal.Setelah inline, internal CSS, berikutnya eksternal CSS karena memiliki prioritas paling rendah.
+   Jawab : inline CSS memiliki prioritas paling tinggi karena ditulis langsng pada elemen, sehingga nilainya akan mengalahkan nilai yang sama dari internal maupun eksternal.Setelah inline, internal CSS, berikutnya            eksternal CSS karena memiliki prioritas paling rendah.
 
 Contoh :
 <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/c3b8aa69-401a-444a-9643-811db7050ffd" />
